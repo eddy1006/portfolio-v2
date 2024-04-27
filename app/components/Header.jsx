@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="w-screen p-6 flex place-content-between">
       <Link href="/">
-        <p className="text-sky-400 text-2xl sm:text-3xl">ADITYA GUPTA</p>
+        <p className="text-sky-400 text-xl sm:text-3xl">ADITYA GUPTA</p>
       </Link>
       <div className="flex-col place-content-center">
         <Link href="/about">
