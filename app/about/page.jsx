@@ -31,7 +31,7 @@ const about = () => {
   return (
     <div className="grid sm:grid-cols-6">
       <div className="bg-bgLight sm:col-span-4 h-fit mx-5 p-6 rounded-lg content-between flex flex-col">
-        <p className="text-themeText text-justify text-sm sm:text-base">
+        <p className="text-themeText text-justify text-sm sm:text-base tracking-tight">
           Hi, I am Aditya Gupta a Software Engineer. I will graduate from
           Vellore Institute of Technology Vellore, this year with a bachelors
           degree in Computer Science and Engineering and I am an upcoming

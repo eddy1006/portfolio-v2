@@ -25,7 +25,9 @@ const Project = ({ p }) => {
       </div>
       {expand ? (
         <div>
-          <p className="text-themeText text-justify">{p.description}</p>
+          <p className="text-themeText text-justify tracking-tight">
+            {p.description}
+          </p>
           <p className="text-pink-500 text-base my-2">Technologies Used</p>
           <div className="flex flex-wrap">
             {p.technologies.map((tech) => (
