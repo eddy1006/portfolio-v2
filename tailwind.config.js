@@ -35,7 +35,9 @@ module.exports = {
       wordsets: {
         titles: {
           words: ["Software Engineer", "Problem Solver", "AI/ML Enthusiast"],
-          delay: 3,
+          delay: 1,
+          writeSpeed: 0.2,
+          pauseBetween: 2,
         },
       },
     }),
