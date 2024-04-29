@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 body {
-  background-color: #101521;
+  /* background-color: #101521; */
+  background: linear-gradient(309deg, #101521, #282c37);
+  background-size: 400% 400%;
+  animation: AnimationName 10s ease infinite;
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 48%;
+  }
+  50% {
+    background-position: 100% 53%;
+  }
+  100% {
+    background-position: 0% 48%;
+  }
 }
