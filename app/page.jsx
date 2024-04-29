@@ -1,12 +1,18 @@
 "use client";
 import React from "react";
+import { Image } from "@nextui-org/react";
 
 const Home = () => {
   return (
     <div className="flex-grow grid place-items-center">
-      <div className="grid gap-4 place-items-center">
-        <img src="/images/aditya.png" className="h-40 w-40 sm:h-60 sm:w-60" />
-        <span className="type-titles text-pink-400 text-2xl sm:text-3xl"></span>
+      <div className="grid gap-4 place-items-center min-h-fit">
+        <Image
+          isZoomed
+          src="/images/aditya.png"
+          alt="NextUI Album Cover"
+          className="m-5 h-40 w-40 sm:h-60 sm:w-60"
+        />
+        <span className="type-titles text-pink-400 text-2xl sm:text-3xl drop-shadow-glow"></span>
       </div>
       <div className="flex gap-3">
         <a href="https://github.com/eddy1006" target="_blank">

@@ -1,4 +1,5 @@
 "use client";
+import { Button } from "@nextui-org/button";
 import React from "react";
 import useDownloader from "react-use-downloader";
 
@@ -48,12 +49,20 @@ const about = () => {
           the socials mentioned below or email me at adigupta239@gmail.com.
         </p>
         <div className="place-content-end flex">
-          <button
+          {/* <button
             className="bg-white p-2 mt-3 text-sm sm:text-base rounded-md hover:opacity-60"
             onClick={() => download(fileUrl, filename)}
           >
             Download Resume
-          </button>
+          </button> */}
+          <Button
+            variant="flat"
+            color="primary"
+            className="mt-3"
+            onClick={() => download(fileUrl, filename)}
+          >
+            Download Resume
+          </Button>
         </div>
       </div>
       <div className="m-5 sm:col-span-2">
