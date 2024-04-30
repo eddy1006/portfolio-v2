@@ -10,9 +10,12 @@ const Home = () => {
           isZoomed
           src="/images/aditya.png"
           alt="NextUI Album Cover"
-          className="m-5 h-40 w-40 sm:h-60 sm:w-60"
+          className="m-8 h-40 w-40 sm:h-60 sm:w-60"
         />
-        <span className="type-titles text-pink-400 text-2xl sm:text-3xl drop-shadow-glow"></span>
+        <div>
+          <span className="text-2xl sm:text-3xl">I'm a </span>
+          <span className="type-titles text-pink-400 text-2xl sm:text-3xl drop-shadow-glow"></span>
+        </div>
       </div>
       <div className="flex gap-3">
         <a href="https://github.com/eddy1006" target="_blank">

@@ -27,14 +27,14 @@ const Header = () => {
       </Link>
       <div className="flex-col place-content-center hidden sm:block">
         <Link href="/about">
-          <button className="text-green-400 sm:text-xl mr-4 hover:underline">
+          <Button variant="light" color="primary" className="sm:text-xl mr-4">
             About
-          </button>
+          </Button>
         </Link>
         <Link href="/projects">
-          <button className="text-green-400 sm:text-xl hover:underline">
+          <Button variant="light" color="primary" className="sm:text-xl">
             Projects
-          </button>
+          </Button>
         </Link>
       </div>
       <Dropdown backdrop="blur" className="sm:hidden">
